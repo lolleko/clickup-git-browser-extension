@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+        "strictNullChecks": true,
+        "target": "es6",
+        "outDir": "dist",
+        "rootDir": "./src",
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "moduleResolution": "node"
+    }
+}

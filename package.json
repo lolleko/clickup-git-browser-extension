@@ -1,0 +1,19 @@
+{
+  "name": "github-repo-size",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lolleko/clickup-github-chrome.git"
+  },
+  "author": "Harsh Vakharia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lolleko/clickup-github-chrome/issues"
+  },
+  "homepage": "https://github.com/lolleko/clickup-github-chrome#readme",
+  "devDependencies": {
+    "@types/chrome": "0.0.88",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {}
+}

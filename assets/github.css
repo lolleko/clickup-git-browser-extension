@@ -1,0 +1,46 @@
+.github-clickup-hovercard {
+    min-width:200px; 
+    top:-20px;
+    left:50%;
+    transform:translate(-50%, -100%);
+    padding:10px 20px;
+    color:#544d61;
+    background-color:#ffffff;
+    font-weight:normal;
+    font-size:13px;
+    border-radius:8px;
+    position:absolute;
+    z-index:99999999;
+    box-sizing:border-box;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.24);
+    max-width: 400px;
+}
+
+.github-clickup-hovercard a {
+    color: #544d61;
+}
+
+.github-clickup-hovercard-status {
+    border-radius: 3px;
+    color: white;
+    margin: 4px;
+    padding: 2px;
+    float: right;
+}
+
+.github-clickup-hovecard-avatar {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.github-clickup-hovercard-task-name {
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+
+.github-clickup-hovercard-task-description {
+    margin-bottom: 8px;
+}
