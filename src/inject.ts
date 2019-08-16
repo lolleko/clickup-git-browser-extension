@@ -149,7 +149,10 @@ const checkForPageWithCommits = () => {
                                 ) {
                                     // retry in 10 sec
                                     console.log(e);
-                                } else if (e.messageType === RuntimeMessageType.ResponseClickUpTaskDoesNotExist) {
+                                } else if (
+                                    e.messageType ===
+                                    RuntimeMessageType.ResponseClickUpTaskDoesNotExist
+                                ) {
                                     removeHoverCard();
                                     commitTitle.removeChild(taskLinkElement);
                                 } else {
