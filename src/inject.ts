@@ -118,7 +118,7 @@ const checkForPageWithCommits = () => {
                     const vanishTimeout = () =>
                         setTimeout(() => {
                             removeHoverCard();
-                        }, 50);
+                        }, 10);
                     hoverTimer = vanishTimeout();
                     if (taskLinkElement.hoverCard) {
                         taskLinkElement.hoverCard.onmouseenter = () =>

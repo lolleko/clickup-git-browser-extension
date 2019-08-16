@@ -4,9 +4,11 @@
   "manifest_version": 2,
   "description": "Automatically show links and summary of clickup tasks in github commits",
   "homepage_url": "https://github.com/lolleko/clickup-github-chrome",
-  "author": "Lorenz Junglas",
+  "author": "Lorenz Junglas (lolleko)",
   "icons": {
-
+    "64": "icons/icon64.png",
+    "128": "icons/icon128.png",
+    "256": "icons/icon256.png"
   },
   "permissions": [
     "storage",
