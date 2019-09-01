@@ -28,11 +28,12 @@ Entering your ClickUp token enables extra features:
 
 The manual token input will be replaced by OAuth2 once implicit Authentication (`response_type=token`) is added to the ClickUP API.
 
-**Disclaimer**
+### Disclaimer
 
 This is an innofficial project and not affiliated with ClickUp or Github.
 
-**TODO**
+### Todo / Roadmap
 
 * Cleanup hovercard js and html
 * Gitlab support
+
